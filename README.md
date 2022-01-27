@@ -7,3 +7,5 @@ The scripts provided will allow you to turn your Raspberry Pi in a cartridge bas
 
 Lexaloffle forum thread on how to get this game console working:
 https://www.lexaloffle.com/bbs/?pid=105741
+
+This should work with Pico8 or TIC-80.
