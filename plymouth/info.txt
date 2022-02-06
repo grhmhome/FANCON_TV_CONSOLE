@@ -1,0 +1,1 @@
+Adds test logo for nameless console. Needs project name and logo.
