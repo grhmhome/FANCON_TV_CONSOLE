@@ -1,1 +1,1 @@
-Adds test logo for nameless console. Needs project name and logo.
+Add to /home/pi/RetroPie/splashscreens
