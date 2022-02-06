@@ -8,5 +8,5 @@
 #
 # In order to enable or disable this script just change the execution
 
-exec /home/pi/autorunpico8.sh
+sudo run.sh
 exit 0
