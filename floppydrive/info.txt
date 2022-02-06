@@ -1,1 +1,0 @@
-This is the current version of the console. This uses a USB floppy drive. Cad files are still in beta.
