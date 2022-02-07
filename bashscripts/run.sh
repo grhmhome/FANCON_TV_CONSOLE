@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo mount /dev/sda /media/floppy &
+sudo mount /dev/sda /media/floppy
 if [ -f "/media/floppy/run.tic" ]
 then
 exec tic80 --fullscreen /media/floppy/run.tic
