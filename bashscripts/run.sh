@@ -7,6 +7,6 @@ elif [[ -f "/media/floppy/run.p8.png" ]]
 then
 exec /home/pi/pico-8/pico8 -root_path /media/floppy -run /media/floppy/run.p8.png
 else
-sleep 10 && exec fim -q /home/pi/booterror.png
+sleep 10 && exec fim -q /home/pi/booterror.png &
 fi
 exit 0
