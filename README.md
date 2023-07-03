@@ -9,3 +9,6 @@ Lexaloffle forum thread for this console.
 https://www.lexaloffle.com/bbs/?pid=105741
 
 This should work with Pico8 or TIC-80.
+
+
+USE AT YOUR OWN RISK.
