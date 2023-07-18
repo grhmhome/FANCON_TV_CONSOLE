@@ -8,7 +8,7 @@ The wiki page has instructions on how to build. Everything is still in beta, so 
 Lexaloffle forum thread for this console.
 https://www.lexaloffle.com/bbs/?pid=105741
 
-This should work with Pico8 or TIC-80.
+This should work with Pico8, but may also work for TIC-80 (unsupported at the moment)
 
 
 USE AT YOUR OWN RISK.
