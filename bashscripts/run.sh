@@ -1,12 +1,9 @@
 #!/bin/bash
-sudo mount /dev/sda /media/floppy
-if [ -f "/media/floppy/run.tic" ]
+# sudo mount /dev/sda /media/floppy Make sure you type in fdisk -l and get the correct paths first and create /media/floppy as a directory.
+if [[ -f "/media/floppy/run.p8.png" ]]
 then
-exec tic80 --fullscreen /media/floppy/run.tic
-elif [[ -f "/media/floppy/run.p8.png" ]]
-then
-exec /home/pi/pico-8/pico8 -root_path /media/floppy -run /media/floppy/run.p8.png
+exec /boot/pico-8/pico8_dyn -root_path /media/floppy -run /media/floppy/run.p8
 else
-sleep 10 && exec fim -q /home/pi/booterror.png &
+exec /boot/pico-8/pico8_dyn -splore
 fi
 exit 0
